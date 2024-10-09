@@ -1,1 +1,33 @@
+# Ignore target directory (Maven build output)
+target/
+
+# Ignore compiled class files
+*.class
+
+# Ignore JAR and WAR files (if already built)
+*.jar
+*.war
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.zip
+*.tar
+
+# Ignore IDE configuration files
+.idea/
+*.iml
+*.project
+*.classpath
+.vscode/
+
+# Ignore environment files
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files
+docker-compose
 
